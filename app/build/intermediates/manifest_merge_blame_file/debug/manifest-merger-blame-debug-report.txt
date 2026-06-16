@@ -1,0 +1,104 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dungeon"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Нужно для загрузки достижений с GitHub -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\f0f4ee7c3b88100b2d2cd4b05ab423cd\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.dungeon.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\f0f4ee7c3b88100b2d2cd4b05ab423cd\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\f0f4ee7c3b88100b2d2cd4b05ab423cd\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.dungeon.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\f0f4ee7c3b88100b2d2cd4b05ab423cd\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\f0f4ee7c3b88100b2d2cd4b05ab423cd\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:8:5-36:19
+21        android:allowBackup="false"
+21-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:9:9-36
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\f0f4ee7c3b88100b2d2cd4b05ab423cd\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:11:9-43
+26        android:label="Dungeon Descent"
+26-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:10:9-40
+27        android:supportsRtl="false"
+27-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:13:9-36
+28        android:theme="@style/Theme.AppCompat.NoActionBar"
+28-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:12:9-59
+29        android:usesCleartextTraffic="false" >
+29-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:14:9-45
+30        <activity
+30-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:16:9-24:20
+31            android:name="com.example.dungeon.MainActivity"
+31-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:17:13-41
+32            android:exported="true"
+32-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:18:13-36
+33            android:screenOrientation="portrait" >
+33-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:19:13-49
+34            <intent-filter>
+34-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:20:13-23:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:21:17-69
+35-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:21:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:22:17-77
+37-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:22:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:26:9-29:52
+41            android:name="com.example.dungeon.GameActivity"
+41-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:27:13-41
+42            android:exported="false"
+42-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:28:13-37
+43            android:screenOrientation="portrait" />
+43-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:29:13-49
+44        <activity
+44-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:31:9-34:52
+45            android:name="com.example.dungeon.achievements.AchievementsActivity"
+45-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:32:13-62
+46            android:exported="false"
+46-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:33:13-37
+47            android:screenOrientation="portrait" />
+47-->C:\Users\user\Desktop\dungeon-project\app\src\main\AndroidManifest.xml:34:13-49
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\4ef2d37eca9ad04b2c397a091ea18fe4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\4ef2d37eca9ad04b2c397a091ea18fe4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+51            android:authorities="com.example.dungeon.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\4ef2d37eca9ad04b2c397a091ea18fe4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\4ef2d37eca9ad04b2c397a091ea18fe4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\4ef2d37eca9ad04b2c397a091ea18fe4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\4ef2d37eca9ad04b2c397a091ea18fe4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\4ef2d37eca9ad04b2c397a091ea18fe4\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\a4c8d0ec904ebc7ffc6031b8d3671ae8\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\a4c8d0ec904ebc7ffc6031b8d3671ae8\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\a4c8d0ec904ebc7ffc6031b8d3671ae8\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+59        </provider>
+60    </application>
+61
+62</manifest>
