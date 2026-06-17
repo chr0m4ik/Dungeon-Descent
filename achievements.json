@@ -1,5 +1,6 @@
 [
   { "id": "kill_5",    "title": "Охотник",     "desc": "Убей 5 врагов за сессию",  "goal": 5,  "type": "kills"    },
+  { "id": "kill_67",    "title": "Уничтожитель",     "desc": "Убей 67 врагов за сессию",  "goal": 67,  "type": "kills"    },
   { "id": "kill_boss", "title": "Убийца дракона", "desc": "Победи финального босса", "goal": 1,  "type": "boss"     },
   { "id": "loot_5",   "title": "Собиратель",   "desc": "Найди 5 предметов",         "goal": 5,  "type": "items"    },
   { "id": "floor_3",  "title": "Глубокий спуск","desc": "Дойди до 3-го этажа",      "goal": 3,  "type": "floor"    },
